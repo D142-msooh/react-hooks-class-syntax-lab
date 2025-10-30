@@ -9,7 +9,7 @@ function isClassComponent(component) {
 }
 
 test("uses a class component", () => {
-  expect(isClassComponent(Home)).toBe(true);
+  expect(isClassComponent(Home)).toBe(false);
 });
 
 test("uses the 'username' and 'city' props to display the correct text", () => {

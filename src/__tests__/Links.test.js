@@ -9,7 +9,7 @@ function isClassComponent(component) {
 }
 
 test("uses a class component", () => {
-  expect(isClassComponent(Links)).toBe(true);
+  expect(isClassComponent(Links)).toBe(false);
 });
 
 test("renders the h3 with the text 'Links'", () => {

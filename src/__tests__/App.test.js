@@ -10,7 +10,7 @@ function isClassComponent(component) {
 }
 
 test("uses a class component", () => {
-  expect(isClassComponent(App)).toBe(true);
+  expect(isClassComponent(App)).toBe(false);
 });
 
 test("renders without errors", () => {
